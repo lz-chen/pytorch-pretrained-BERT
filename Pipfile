@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = ">=0.4.1"
+tqdm = "*"
+"boto3" = "*"
+requests = "*"
+pytorch-pretrained-bert = "*"
+keras = "*"
+sklearn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
