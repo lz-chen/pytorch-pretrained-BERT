@@ -11,6 +11,8 @@ requests = "*"
 pytorch-pretrained-bert = "*"
 keras = "*"
 sklearn = "*"
+tensorflow = "*"
+seqeval = "*"
 
 [dev-packages]
 
