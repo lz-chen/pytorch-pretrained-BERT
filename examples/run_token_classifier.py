@@ -50,8 +50,8 @@ def load_data_from_folder(folder_path: Path, max_sent_len=MAX_LEN):
     return sentences, labels, unique_labels
 
 
-# data_folder = Path('/media/liah/DATA/acme_data_ner/dataset_ner_en_bilou')
-data_folder = Path('/home/liah/pytorch-pretrained-BERT/data')
+data_folder = Path('/media/liah/DATA/acme_data_ner/dataset_ner_en_bilou')
+# data_folder = Path('/home/liah/pytorch-pretrained-BERT/data')
 all_sentences, all_labels, unique_labels = load_data_from_folder(data_folder)
 sentences = all_sentences[:100]
 labels = all_labels[:100]

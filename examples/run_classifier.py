@@ -381,7 +381,7 @@ def main():
                         default=1,
                         help="Number of updates steps to accumulate before performing a backward/update pass.")
     parser.add_argument('--fp16',
-                        default=False,
+                        default=True,
                         action='store_true',
                         help="Whether to use 16-bit float precision instead of 32-bit")
     parser.add_argument('--loss_scale',
